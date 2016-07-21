@@ -17,7 +17,7 @@ public class MathTest {
     @Test
     public void testAddWithHamcrestMatchers() throws Exception {
         final Math math = new Math();
-        assertThat("Addition", math.add(2, 3), is(6));
+        assertThat("Addition", math.add(2, 3), is(5));
     }
 
     @Test
